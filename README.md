@@ -22,9 +22,13 @@ Create a directory for your project and initialize npm using:
 `npm install selenium-webdriver cucumber chromedriver chai cucumber-html-reporter -D`
 
  selenium-webdriver - Browser automation library
+ 
  cucumber - BDD framework
- browser driver: chromedriver,
+ 
+ browser driver: chromedriver
+ 
  chai.js: Assertion library
+ 
  cucumber-html-reporter - To generate reports
 
 **Quick Start**
