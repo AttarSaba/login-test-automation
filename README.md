@@ -6,30 +6,31 @@ The tests in the project are BDD style tests that are driven by cucumber feature
 
 **Prerequisites**
 
-Java — SDK: Java 8
+ Java — SDK: Java 8
 
-Node.js and npm
+ Node.js and npm
 
-`brew install node`
+ `brew install node`
 
 1. **Set up your project**
-Create a directory for your project and initialize npm using:
+   Create a directory for your project and initialize npm using:
 
-`npm -y init`
+   `npm -y init`
 
 2. **Install the Selenium-webdriver, Cucumber, Browser driver, Chai.js, Cucumber-html-reporter**
- while in your project directory using:
-`npm install selenium-webdriver cucumber chromedriver chai cucumber-html-reporter -D`
+   while in your project directory using:
+  `npm install selenium-webdriver cucumber chromedriver chai cucumber-html-reporter -D`
 
- selenium-webdriver - Browser automation library
+  
+   selenium-webdriver - Browser automation library
  
- cucumber - BDD framework
+   cucumber - BDD framework
  
- browser driver: chromedriver
+   browser driver: chromedriver
  
- chai.js: Assertion library
+   chai.js: Assertion library
  
- cucumber-html-reporter - To generate reports
+   cucumber-html-reporter - To generate reports
 
 **Quick Start**
 
