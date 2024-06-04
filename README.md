@@ -5,8 +5,11 @@ This project consists of a simple node application that presents a login page wi
 The tests in the project are BDD style tests that are driven by cucumber features and drive the tests using selenium webdriver.
 
 **Prerequisites**
+
 Java — SDK: Java 8
+
 Node.js and npm
+
 `brew install node`
 
 1. **Set up your project**
@@ -25,10 +28,14 @@ Create a directory for your project and initialize npm using:
  cucumber-html-reporter - To generate reports
 
 **Quick Start**
+
 1. Clone the project using git clone https://github.com/AttarSaba/login-test-automation.git
-Install node modules - npm install.
-Correct credentials to login are practice / SuperSecretPassword!
-To run tests - npm run test.
+   
+2. Install node modules - npm install
+
+3. Correct credentials to login are practice / SuperSecretPassword!
+
+4. To run tests - npm run test.
 
 
 
