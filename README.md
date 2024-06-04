@@ -12,12 +12,12 @@ The tests in the project are BDD style tests that are driven by cucumber feature
 
  `brew install node`
 
-1. **Set up your project**
+**Set up your project**
    Create a directory for your project and initialize npm using:
 
    `npm -y init`
 
-2. **Install the Selenium-webdriver, Cucumber, Browser driver, Chai.js, Cucumber-html-reporter**
+ **Install the Selenium-webdriver, Cucumber, Browser driver, Chai.js, Cucumber-html-reporter**
    while in your project directory using:
   `npm install selenium-webdriver cucumber chromedriver chai cucumber-html-reporter -D`
 
