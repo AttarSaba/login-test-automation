@@ -1,0 +1,27 @@
+{
+  "name": "login-test-automation",
+  "version": "1.0.0",
+  "description": "Automate test for login functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --tags @login_tests -f json:report/cucumber_report.json --format progress-bar $feature; npm run postfeature; exit 0",
+    "report": "node ./index.js",
+    "postfeature": "npm run report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "chromedriver": "^125.0.3",
+    "geckodriver": "^4.4.1",
+    "node-fetch": "^2.6.1",
+    "selenium-webdriver": "^4.21.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "cucumber": "^6.0.7",
+    "cucumber-html-reporter": "^7.1.1"
+  }
+}
