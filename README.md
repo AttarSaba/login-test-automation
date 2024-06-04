@@ -18,7 +18,9 @@ The tests in the project are BDD style tests that are driven by cucumber feature
    `npm -y init`
 
  **Install the Selenium-webdriver, Cucumber, Browser driver, Chai.js, Cucumber-html-reporter**
+   
    while in your project directory using:
+  
   `npm install selenium-webdriver cucumber chromedriver chai cucumber-html-reporter -D`
 
   
