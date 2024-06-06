@@ -4,6 +4,8 @@ This project consists of a simple node application that presents a login page wi
 
 The tests in the project are BDD style tests that are driven by cucumber features and drive the tests using selenium webdriver.
 
+You can install the prerequisites using [Homebrew](http://b.remarkabl.org/homebrew)
+
 **Prerequisites**
 
  Java — SDK: Java 8
