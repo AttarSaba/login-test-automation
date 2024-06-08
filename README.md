@@ -1,5 +1,6 @@
 # login-test-automation
 **Summary**
+
 This project consists of a simple node application that presents a login page with the ability to enter login credentials. If correct credentials are entered then the Secure page is presented otherwise an error is displayed.
 
 The tests in the project are BDD style tests that are driven by cucumber features and drive the tests using selenium webdriver with Chrome browser.
@@ -24,15 +25,13 @@ You can install the prerequisites using [Homebrew](http://b.remarkabl.org/homebr
    
 2. Go to the directory `login-test-automation`, Install node modules - `npm install`
 
-3. Check your chrome browser version, if the browser version is greater than 125, install the chromedriver matching your version using
+3. Correct credentials to login are practice / SuperSecretPassword!
+
+4. To run tests - `npm test`
+
+5. If the test fails due to chromedriver version then check your chrome browser version, install the chromedriver matching your version using
 
    `npm i chromedriver@<version>`
-
-4. Skip step 3 if your chrome browser version is 124/125
-
-5. Correct credentials to login are practice / SuperSecretPassword!
-
-6. To run tests - `npm test`
 
 Note: If you are on Windows machine, then after step 3 above execute the following command
 
