@@ -4,7 +4,7 @@
   "description": "Automate test for login functionality",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js --tags @login_tests -f json:report/cucumber_report.json --format progress-bar $feature; npm run postfeature; exit 0",
+    "test": "./node_modules/.bin/cucumber-js --tags @login_tests -f json:report/cucumber_report.json --format progress-bar $feature; npm run postfeature; exit 0",
     "report": "node ./index.js",
     "postfeature": "npm run report"
   },
