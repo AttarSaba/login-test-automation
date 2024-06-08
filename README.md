@@ -17,7 +17,11 @@ You can install the prerequisites using [Homebrew](http://b.remarkabl.org/homebr
 
  Node.js and npm
 
- `brew install node`
+ Mac: `brew install node`
+
+ Windows: Refer the link https://phoenixnap.com/kb/install-node-js-npm-on-windows to learn nodejs installation on Windows
+ 
+ `choco install nodejs`
 
  **Quick Start**
 
